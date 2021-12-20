@@ -30,7 +30,7 @@ U 1 1 61C06AB2
 P 5150 3575
 F 0 "J1" H 5525 4125 50  0000 C CNN
 F 1 "Solder Side" H 5675 4025 50  0000 C CNN
-F 2 "" H 5150 3575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x36_P2.54mm_Vertical" H 5150 3575 50  0001 C CNN
 F 3 "~" H 5150 3575 50  0001 C CNN
 	1    5150 3575
 	-1   0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 61C17584
 P 6450 3575
 F 0 "J2" H 6600 4150 50  0000 L CNN
 F 1 "Parts Side" H 6600 4075 50  0000 L CNN
-F 2 "" H 6450 3575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x36_P2.54mm_Vertical" H 6450 3575 50  0001 C CNN
 F 3 "~" H 6450 3575 50  0001 C CNN
 	1    6450 3575
 	1    0    0    -1  

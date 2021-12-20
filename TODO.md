@@ -1,0 +1,6 @@
+ - [ ] Figure out the edge connector tooth width and depth
+ - [ ] Figure out more exact dimensions (printout test-fit) of board edge
+ - [ ] Make an edge connector footprint
+ - [ ] Make a "power bar" footprint for 5, 12, -12, GND
+ - [ ] Look at options for edge covers
+ - [ ] Look at the thumb-release lever footprints, see if the screw holes can be tweaked
