@@ -7,14 +7,14 @@ Based on [this page by youkan](http://www.maroon.dti.ne.jp/youkan/pc88/expslot.h
 | GND                  | -   | 2          | -   | GND                |
 | +5V                  | -   | 3          | -   | +5V                |
 | +5V                  | -   | 4          | -   | +5V                |
-| AB0                  | O   | 5          | -   | <span style="text-decoration:overline">EXTRXRDY</span>                |
+| AB0                  | O   | 5          | -   | ~EXTRXRDY                |
 | AB1                  | O   | 6          | -   | N/C                |
-| AB2                  | O   | 7          | I   | <span style="text-decoration:overline">MWAIT</span>[^mwait]                |
-| AB3                  | O   | 8          | I   | <span style="text-decoration:overline">INT4</span>                |
-| AB4                  | O   | 9          | I   | <span style="text-decoration:overline">INT3</span>                |
-| AB5                  | O   | 10         | I   | <span style="text-decoration:overline">INT2</span>                |
-| AB6                  | O   | 11         | I   | <span style="text-decoration:overline">FDINT1</span>                |
-| AB7                  | O   | 12         | I   | <span style="text-decoration:overline">FDINT2</span>                |
+| AB2                  | O   | 7          | I   | ~MWAIT[^mwait]                |
+| AB3                  | O   | 8          | I   | ~INT4                |
+| AB4                  | O   | 9          | I   | ~INT3                |
+| AB5                  | O   | 10         | I   | ~INT2                |
+| AB6                  | O   | 11         | I   | ~FDINT1                |
+| AB7                  | O   | 12         | I   | ~FDINT2                |
 | AB8                  | O   | 13         | O   | DB0                |
 | AB9                  | O   | 14         | O   | DB1                |
 | AB10                 | O   | 15         | O   | DB2                |
@@ -23,18 +23,18 @@ Based on [this page by youkan](http://www.maroon.dti.ne.jp/youkan/pc88/expslot.h
 | AB13                 | O   | 18         | O   | DB5                |
 | AB14                 | O   | 19         | O   | DB6                |
 | AB15                 | O   | 20         | O   | DB7                |
-| <span style="text-decoration:overline">RD</span>                 | O   | 21         | O   | <span style="text-decoration:overline">MEMR</span>                |
-| <span style="text-decoration:overline">WR</span>                 | O   | 22         | O   | HIGH[^high]                |
-| <span style="text-decoration:overline">MREQ</span>                 | O   | 23         | O   | <span style="text-decoration:overline">IOW</span>                |
-| <span style="text-decoration:overline">IORQ</span>                 | O   | 24         | O   | <span style="text-decoration:overline">IOR</span>                |
-| <span style="text-decoration:overline">M1</span>                 | O   | 25         | O   | <span style="text-decoration:overline">MEMW</span>                |
-| <span style="text-decoration:overline">RAS0</span>                 | O   | 26         | ??  | <span style="text-decoration:overline">DMATC</span>                |
-| <span style="text-decoration:overline">RAS1</span>                 | O   | 27         | ??   | DMRDY                |
-| <span style="text-decoration:overline">RFSH</span>                 | O   | 28         | O   | <span style="text-decoration:overline">DRQ1,2</span>                |
-| <span style="text-decoration:overline">MUX</span>                 | O   | 29         | O   | <span style="text-decoration:overline">DACK1,2</span>                |
-| <span style="text-decoration:overline">WE</span>                 | O   | 30         | O  | 4xCLK[^4clk]               |
-| <span style="text-decoration:overline">ROMKILL</span>[^romkill]                 | I   | 31         | I  | <span style="text-decoration:overline">NMI</span>               |
-| <span style="text-decoration:overline">RESET</span>                 | O   | 32         | I  | <span style="text-decoration:overline">WAITRQ</span>               |
+| ~RD                 | O   | 21         | O   | ~MEMR                |
+| ~WR                 | O   | 22         | O   | HIGH[^high]                |
+| ~MREQ                 | O   | 23         | O   | ~IOW                |
+| ~IORQ                 | O   | 24         | O   | ~IOR                |
+| ~M1                 | O   | 25         | O   | ~MEMW                |
+| ~RAS0                 | O   | 26         | ??  | ~DMATC                |
+| ~RAS1                 | O   | 27         | ??   | DMRDY                |
+| ~RFSH                 | O   | 28         | O   | ~DRQ1,2                |
+| ~MUX                 | O   | 29         | O   | ~DACK1,2                |
+| ~WE                 | O   | 30         | O  | 4xCLK[^4clk]               |
+| ~ROMKILL[^romkill]                 | I   | 31         | I  | ~NMI               |
+| ~RESET                 | O   | 32         | I  | ~WAITRQ               |
 | SCLK[^sclk]                 | O   | 33         | -  | +12V               |
 | CLK[^clk]                 | O   | 34         | -  | -12V               |
 | V1                 | ??   | 35         | ??  | V1               |
