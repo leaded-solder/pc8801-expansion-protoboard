@@ -109,4 +109,74 @@ Connection ~ 6250 5175
 Wire Wire Line
 	6625 5075 6250 5075
 Connection ~ 6250 5075
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 61C10DBA
+P 8575 1525
+F 0 "J3" V 8421 1573 50  0000 L CNN
+F 1 "5V" V 8512 1573 50  0000 L CNN
+F 2 "PC-8801:1x20_PowerBar" H 8575 1525 50  0001 C CNN
+F 3 "~" H 8575 1525 50  0001 C CNN
+	1    8575 1525
+	0    1    1    0   
+$EndComp
+Text Label 8575 1325 1    50   ~ 0
++5V
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 61C11D84
+P 8850 1525
+F 0 "J4" V 8696 1573 50  0000 L CNN
+F 1 "12V" V 8787 1573 50  0000 L CNN
+F 2 "PC-8801:1x20_PowerBar" H 8850 1525 50  0001 C CNN
+F 3 "~" H 8850 1525 50  0001 C CNN
+	1    8850 1525
+	0    1    1    0   
+$EndComp
+Text Label 8850 1325 1    50   ~ 0
++12V
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 61C12B95
+P 9125 1525
+F 0 "J5" V 8971 1573 50  0000 L CNN
+F 1 "-12V" V 9062 1573 50  0000 L CNN
+F 2 "PC-8801:1x20_PowerBar" H 9125 1525 50  0001 C CNN
+F 3 "~" H 9125 1525 50  0001 C CNN
+	1    9125 1525
+	0    1    1    0   
+$EndComp
+Text Label 9125 1325 1    50   ~ 0
+-12V
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 61C13D12
+P 9450 1525
+F 0 "J6" V 9296 1573 50  0000 L CNN
+F 1 "GND_1" V 9387 1573 50  0000 L CNN
+F 2 "PC-8801:1x20_PowerBar" H 9450 1525 50  0001 C CNN
+F 3 "~" H 9450 1525 50  0001 C CNN
+	1    9450 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 61C14C52
+P 9775 1525
+F 0 "J7" V 9621 1573 50  0000 L CNN
+F 1 "GND_2" V 9712 1573 50  0000 L CNN
+F 2 "PC-8801:1x20_PowerBar" H 9775 1525 50  0001 C CNN
+F 3 "~" H 9775 1525 50  0001 C CNN
+	1    9775 1525
+	0    1    1    0   
+$EndComp
+Text Label 9625 1200 1    50   ~ 0
+GND
+Wire Wire Line
+	9775 1325 9625 1325
+Wire Wire Line
+	9625 1200 9625 1325
+Connection ~ 9625 1325
+Wire Wire Line
+	9625 1325 9450 1325
 $EndSCHEMATC
