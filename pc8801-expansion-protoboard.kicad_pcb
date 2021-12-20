@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 55)
+    (drawings 57)
     (tracks 7)
     (zones 0)
     (modules 4)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 2)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (user_trace_width 2)
     (trace_clearance 0.2)
@@ -489,6 +489,21 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
+  (gr_text "this side up" (at 41.91 132.715) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (dimension 219 (width 0.12) (layer F.SilkS)
+    (gr_text "219.000 mm" (at 146.5 21.59) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 37 50) (xy 37 22.273579)))
+    (feature2 (pts (xy 256 50) (xy 256 22.273579)))
+    (crossbar (pts (xy 256 22.86) (xy 37 22.86)))
+    (arrow1a (pts (xy 37 22.86) (xy 38.126504 22.273579)))
+    (arrow1b (pts (xy 37 22.86) (xy 38.126504 23.446421)))
+    (arrow2a (pts (xy 256 22.86) (xy 254.873496 22.273579)))
+    (arrow2b (pts (xy 256 22.86) (xy 254.873496 23.446421)))
+  )
   (gr_text "AB\n0" (at 116.84 132.08) (layer F.SilkS) (tstamp 61C091FF)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
