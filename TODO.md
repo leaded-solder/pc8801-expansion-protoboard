@@ -4,5 +4,6 @@
  - [x] Make a "power bar" footprint for 5, 12, -12, GND
  - [x] Copy net assignments to all of the power bars
  - [x] Make a "proto area" footprint
+ - [ ] Should the edge be chamfered?
  - [ ] Look at options for backplane covers
  - [ ] Look at the thumb-release lever footprints, see if the screw holes can be tweaked
