@@ -1,9 +1,11 @@
- - [ ] Figure out the edge connector tooth width and depth
- - [ ] Figure out more exact dimensions (printout test-fit) of board edge
- - [ ] Make an edge connector footprint
+ - [x] Figure out the edge connector tooth width and depth
+ - [x] Figure out more exact dimensions (printout test-fit) of board edge
+ - [x] Make an edge connector footprint
  - [x] Make a "power bar" footprint for 5, 12, -12, GND
  - [x] Copy net assignments to all of the power bars
  - [x] Make a "proto area" footprint
  - [ ] Should the edge be chamfered?
  - [ ] Look at options for backplane covers
- - [ ] Look at the thumb-release lever footprints, see if the screw holes can be tweaked
+ - [x] Look at the thumb-release lever footprints, see if the screw holes can be tweaked (m3, 5mm ring)
+ - [x] print, cut out, and test an example
+ - [ ] fix the alignment based on the SB-II measurements
