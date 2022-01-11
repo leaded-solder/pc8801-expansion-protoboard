@@ -4,10 +4,11 @@
  - [x] Make a "power bar" footprint for 5, 12, -12, GND
  - [x] Copy net assignments to all of the power bars
  - [x] Make a "proto area" footprint
- - [ ] Should the edge be chamfered?
+ - [x] Should the edge be chamfered?
  - [ ] Look at options for backplane covers
  - [x] Look at the thumb-release lever footprints, see if the screw holes can be tweaked (m3, 5mm ring)
  - [x] print, cut out, and test an example
  - [x] fix the alignment based on the SB-II measurements
  - [x] choose an ejector - Bivar CP-26 seems fine
  - [x] adjust PCB for ejector holes
+ - [ ] send away for first revision...
