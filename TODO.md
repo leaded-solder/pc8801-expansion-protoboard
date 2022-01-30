@@ -11,4 +11,6 @@
  - [x] fix the alignment based on the SB-II measurements
  - [x] choose an ejector - Bivar CP-26 seems fine
  - [x] adjust PCB for ejector holes
- - [ ] send away for first revision...
+ - [x] send away for first revision...
+ - [x] test fit first revision
+ - [x] create README with BOM
