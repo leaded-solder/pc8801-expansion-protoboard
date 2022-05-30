@@ -875,4 +875,66 @@ Text Label 8500 3675 0    50   ~ 0
 ~SER_RD
 Wire Wire Line
 	8500 3675 8225 3675
+$Comp
+L 74xx:74LS165 U?
+U 1 1 62DE2EA8
+P 9875 3650
+F 0 "U?" H 9875 4731 50  0000 C CNN
+F 1 "74LS165" H 9875 4640 50  0000 C CNN
+F 2 "" H 9875 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 9875 3650 50  0001 C CNN
+	1    9875 3650
+	1    0    0    -1  
+$EndComp
+Text Label 10150 2600 0    50   ~ 0
++5V
+Wire Wire Line
+	10150 2600 10150 2750
+Wire Wire Line
+	10150 2750 9875 2750
+Text Label 10000 4750 0    50   ~ 0
+GND
+Wire Wire Line
+	10000 4750 9875 4750
+Wire Wire Line
+	9875 4750 9875 4650
+Text Label 10575 3050 0    50   ~ 0
+FUJI_IN
+Wire Wire Line
+	10575 3050 10375 3050
+NoConn ~ 10375 3150
+Text Label 9375 3150 2    50   ~ 0
+D0
+Text Label 9375 3250 2    50   ~ 0
+D1
+Text Label 9375 3350 2    50   ~ 0
+D2
+Text Label 9375 3450 2    50   ~ 0
+D3
+Text Label 9375 3550 2    50   ~ 0
+D4
+Text Label 9375 3650 2    50   ~ 0
+D5
+Text Label 9375 3750 2    50   ~ 0
+D6
+Text Label 9375 3850 2    50   ~ 0
+D7
+Wire Wire Line
+	9375 3050 9375 2750
+Wire Wire Line
+	9375 2750 9875 2750
+Connection ~ 9875 2750
+Text Notes 8975 4050 2    50   ~ 0
+~LOAD
+Text Label 9375 4050 2    50   ~ 0
+~SER_WR
+Text Label 9375 4250 2    50   ~ 0
+~SPI_CLK
+Wire Wire Line
+	9375 4350 9375 4750
+Wire Wire Line
+	9375 4750 9875 4750
+Connection ~ 9875 4750
+Text Notes 9000 4375 2    50   ~ 0
+Clock inhibit?
 $EndSCHEMATC
