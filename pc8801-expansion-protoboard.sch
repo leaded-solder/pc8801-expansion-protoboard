@@ -40,7 +40,7 @@ L Connector:Conn_01x36_Female J2
 U 1 1 61C17584
 P 6450 3575
 F 0 "J2" H 6600 4150 50  0000 L CNN
-F 1 "Parts Side" H 6600 4075 50  0000 L CNN
+F 1 "Parts Side" H 6625 4225 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x36_P2.54mm_Vertical" H 6450 3575 50  0001 C CNN
 F 3 "~" H 6450 3575 50  0001 C CNN
 	1    6450 3575
@@ -681,7 +681,7 @@ Connection ~ 6450 7350
 Wire Wire Line
 	6450 7350 6450 7250
 Text Label 6575 7625 0    50   ~ 0
-~FUJI_OUT
+FUJI_OUT
 Wire Wire Line
 	6575 7625 6525 7625
 Wire Wire Line
@@ -791,4 +791,88 @@ Connection ~ 8250 5250
 Wire Wire Line
 	8250 6250 9100 6250
 Connection ~ 8250 6250
+Text Label 7075 3075 0    50   ~ 0
+D0
+Connection ~ 6250 3075
+Text Label 7075 3175 0    50   ~ 0
+D1
+Text Label 7075 3275 0    50   ~ 0
+D2
+Text Label 7075 3375 0    50   ~ 0
+D3
+Text Label 7075 3475 0    50   ~ 0
+D4
+Text Label 7075 3575 0    50   ~ 0
+D5
+Text Label 7075 3675 0    50   ~ 0
+D6
+Text Label 7075 3775 0    50   ~ 0
+D7
+Connection ~ 6250 3775
+Connection ~ 6250 3175
+Connection ~ 6250 3275
+Connection ~ 6250 3375
+Connection ~ 6250 3475
+Connection ~ 6250 3575
+Connection ~ 6250 3675
+$Comp
+L 74xx:74HC595 U?
+U 1 1 62D598B8
+P 7825 3475
+F 0 "U?" H 7825 4256 50  0000 C CNN
+F 1 "74HC595" H 7825 4165 50  0000 C CNN
+F 2 "" H 7825 3475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7825 3475 50  0001 C CNN
+	1    7825 3475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3075 7425 3075
+Wire Wire Line
+	6250 3175 7425 3175
+Wire Wire Line
+	6250 3275 7425 3275
+Wire Wire Line
+	6250 3375 7425 3375
+Wire Wire Line
+	6250 3475 7425 3475
+Wire Wire Line
+	6250 3575 7425 3575
+Wire Wire Line
+	6250 3675 7425 3675
+Wire Wire Line
+	6250 3775 7425 3775
+NoConn ~ 7425 3975
+Text Label 7950 4300 0    50   ~ 0
+GND
+Wire Wire Line
+	7950 4300 7825 4300
+Wire Wire Line
+	7825 4300 7825 4175
+Text Label 7575 2775 2    50   ~ 0
++5V
+Wire Wire Line
+	7575 2775 7575 2875
+Wire Wire Line
+	7575 2875 7825 2875
+Text Label 8500 3575 0    50   ~ 0
+~SPI_CLK
+Wire Wire Line
+	8500 3575 8225 3575
+Text Label 8500 3275 0    50   ~ 0
+SPI_CLK
+Wire Wire Line
+	8500 3275 8225 3275
+Text Label 8500 3075 0    50   ~ 0
+FUJI_OUT
+Wire Wire Line
+	8500 3075 8225 3075
+Text Label 8500 3375 0    50   ~ 0
++5V
+Wire Wire Line
+	8500 3375 8225 3375
+Text Label 8500 3675 0    50   ~ 0
+~SER_RD
+Wire Wire Line
+	8500 3675 8225 3675
 $EndSCHEMATC
