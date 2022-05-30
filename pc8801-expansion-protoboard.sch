@@ -179,4 +179,616 @@ Wire Wire Line
 Connection ~ 9625 1325
 Wire Wire Line
 	9625 1325 9450 1325
+Wire Wire Line
+	5350 2975 4450 2975
+Connection ~ 5350 2975
+Text Label 4450 2975 0    50   ~ 0
+A7
+Wire Wire Line
+	3775 2675 3850 2675
+Wire Wire Line
+	3850 2675 3850 2975
+Text Label 3850 2675 0    50   ~ 0
+~A7
+Wire Wire Line
+	5350 2875 4350 2875
+Wire Wire Line
+	4350 2875 4350 2475
+Wire Wire Line
+	4350 2475 3775 2475
+Connection ~ 5350 2875
+Text Label 3850 2475 0    50   ~ 0
+A6
+Wire Wire Line
+	3150 2400 3150 2575
+Wire Wire Line
+	3150 2575 3175 2575
+Wire Wire Line
+	5350 2775 4400 2775
+Wire Wire Line
+	4400 2775 4400 2200
+Wire Wire Line
+	4400 2200 3150 2200
+Connection ~ 5350 2775
+Text Label 3150 2200 0    50   ~ 0
+A5
+Wire Wire Line
+	2450 2000 2450 2300
+Wire Wire Line
+	2450 2300 2550 2300
+Wire Wire Line
+	5350 2675 4450 2675
+Wire Wire Line
+	4450 2675 4450 1800
+Wire Wire Line
+	4450 1800 2450 1800
+Connection ~ 5350 2675
+Text Label 2450 1800 0    50   ~ 0
+A4
+$Comp
+L 74xx:74LS32 U2
+U 3 1 62BFA1A0
+P 2150 1900
+F 0 "U2" H 2150 1583 50  0000 C CNN
+F 1 "74LS32" H 2150 1674 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2150 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2150 1900 50  0001 C CNN
+	3    2150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS32 U2
+U 2 1 62BF52F9
+P 2850 2300
+F 0 "U2" H 2850 1983 50  0000 C CNN
+F 1 "74LS32" H 2850 2074 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2850 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 2300 50  0001 C CNN
+	2    2850 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS32 U2
+U 1 1 62BEC724
+P 3475 2575
+F 0 "U2" H 3475 2258 50  0000 C CNN
+F 1 "74LS32" H 3475 2349 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3475 2575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3475 2575 50  0001 C CNN
+	1    3475 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 1 1 62BE476F
+P 4150 2975
+F 0 "U3" H 4150 2658 50  0000 C CNN
+F 1 "74LS04" H 4150 2749 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4150 2975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4150 2975 50  0001 C CNN
+	1    4150 2975
+	-1   0    0    1   
+$EndComp
+Text Label 1850 1900 2    50   ~ 0
+~FUJI_SEL
+$Comp
+L 74xx:74LS32 U2
+U 5 1 62C0EBB9
+P 875 3375
+F 0 "U2" H 1105 3421 50  0000 L CNN
+F 1 "74LS32" H 1105 3330 50  0000 L CNN
+F 2 "" H 875 3375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 875 3375 50  0001 C CNN
+	5    875  3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 7 1 62C10CA0
+P 875 4725
+F 0 "U3" H 1105 4771 50  0000 L CNN
+F 1 "74LS04" H 1105 4680 50  0000 L CNN
+F 2 "" H 875 4725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 875 4725 50  0001 C CNN
+	7    875  4725
+	1    0    0    -1  
+$EndComp
+Text Label 875  2875 0    50   ~ 0
++5V
+Text Label 875  4225 0    50   ~ 0
++5V
+Text Label 875  3875 0    50   ~ 0
+GND
+Text Label 875  5225 0    50   ~ 0
+GND
+Text Label 4825 2275 2    50   ~ 0
+A0
+Text Label 4825 2375 2    50   ~ 0
+A1
+Text Label 4825 2475 2    50   ~ 0
+A2
+Text Label 4825 2575 2    50   ~ 0
+A3
+Wire Wire Line
+	4825 2575 5350 2575
+Connection ~ 5350 2575
+Wire Wire Line
+	5350 2475 4825 2475
+Connection ~ 5350 2475
+Wire Wire Line
+	5350 2375 4825 2375
+Connection ~ 5350 2375
+Wire Wire Line
+	4825 2275 5350 2275
+Connection ~ 5350 2275
+$Comp
+L Oscillator:CXO_DIP8 X1
+U 1 1 62C22982
+P 1875 3250
+F 0 "X1" H 2219 3296 50  0000 L CNN
+F 1 "16MHz" H 2219 3205 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 2325 2900 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1775 3250 50  0001 C CNN
+	1    1875 3250
+	1    0    0    -1  
+$EndComp
+Text Label 1875 3625 0    50   ~ 0
+GND
+Wire Wire Line
+	1875 3625 1875 3550
+Text Label 1875 2950 0    50   ~ 0
++5V
+Wire Wire Line
+	2175 3250 2175 3425
+Wire Wire Line
+	2175 3425 2450 3425
+Text Label 2450 3425 0    50   ~ 0
+16MHz
+NoConn ~ 1575 3250
+$Comp
+L 74xx:74LS163 U5
+U 1 1 62C298CE
+P 2925 4750
+F 0 "U5" H 2925 5731 50  0000 C CNN
+F 1 "74LS163" H 2925 5640 50  0000 C CNN
+F 2 "" H 2925 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS163" H 2925 4750 50  0001 C CNN
+	1    2925 4750
+	1    0    0    -1  
+$EndComp
+Text Label 3200 3800 0    50   ~ 0
++5V
+Wire Wire Line
+	3200 3800 3200 3950
+Wire Wire Line
+	3200 3950 2925 3950
+Text Label 3100 5725 0    50   ~ 0
+GND
+Wire Wire Line
+	3100 5725 2925 5725
+Wire Wire Line
+	2925 5725 2925 5550
+Text Label 2425 4250 2    50   ~ 0
+SPI_CLK
+Text Label 1425 4350 2    50   ~ 0
+~SPI_CLK
+$Comp
+L 74xx:74LS00 U4
+U 1 1 62C30115
+P 1725 4350
+F 0 "U4" H 1725 4033 50  0000 C CNN
+F 1 "74LS00" H 1725 4124 50  0000 C CNN
+F 2 "" H 1725 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1725 4350 50  0001 C CNN
+	1    1725 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2025 4450 2100 4450
+Wire Wire Line
+	2100 4450 2100 4250
+Wire Wire Line
+	2100 4250 2025 4250
+Connection ~ 2100 4250
+Wire Wire Line
+	2100 4250 2425 4250
+Text Label 2100 4750 2    50   ~ 0
++5V
+Wire Wire Line
+	2100 4750 2275 4750
+Text Notes 1900 4750 2    50   ~ 0
+~LOAD
+NoConn ~ 2425 4350
+NoConn ~ 2425 4450
+NoConn ~ 2425 4550
+Wire Wire Line
+	2425 4850 2275 4850
+Wire Wire Line
+	2275 4850 2275 4750
+Connection ~ 2275 4750
+Wire Wire Line
+	2275 4750 2425 4750
+Text Notes 1900 4850 2    50   ~ 0
+ENP
+Text Notes 1900 4950 2    50   ~ 0
+ENT
+Wire Wire Line
+	2425 4950 2275 4950
+Wire Wire Line
+	2275 4950 2275 4850
+Connection ~ 2275 4850
+Text Label 2275 5050 2    50   ~ 0
+16MHz
+Wire Wire Line
+	2275 5050 2425 5050
+Text Notes 1900 5050 2    50   ~ 0
+CLK
+$Comp
+L 74xx:74LS00 U4
+U 2 1 62C4BF14
+P 1625 6100
+F 0 "U4" H 1625 6425 50  0000 C CNN
+F 1 "74LS00" H 1625 6334 50  0000 C CNN
+F 2 "" H 1625 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1625 6100 50  0001 C CNN
+	2    1625 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U4
+U 3 1 62C4CDDA
+P 1625 6525
+F 0 "U4" H 1625 6300 50  0000 C CNN
+F 1 "74LS00" H 1625 6200 50  0000 C CNN
+F 2 "" H 1625 6525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1625 6525 50  0001 C CNN
+	3    1625 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 6525 2200 6525
+Wire Wire Line
+	2200 6525 2200 6425
+Wire Wire Line
+	2200 6300 1050 6300
+Wire Wire Line
+	1050 6300 1050 6200
+Wire Wire Line
+	1050 6200 1325 6200
+Wire Wire Line
+	1925 6100 1925 6325
+Wire Wire Line
+	1925 6325 1050 6325
+Wire Wire Line
+	1050 6325 1050 6425
+Wire Wire Line
+	1050 6425 1325 6425
+Text Label 1050 6625 2    50   ~ 0
+~START
+Wire Wire Line
+	1050 6625 1325 6625
+$Comp
+L 74xx:74LS00 U4
+U 4 1 62C60F51
+P 1625 5550
+F 0 "U4" H 1625 5233 50  0000 C CNN
+F 1 "74LS00" H 1625 5324 50  0000 C CNN
+F 2 "" H 1625 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1625 5550 50  0001 C CNN
+	4    1625 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1325 5550 1050 5550
+Wire Wire Line
+	1050 5550 1050 6000
+Wire Wire Line
+	1050 6000 1325 6000
+Wire Wire Line
+	1925 5650 2025 5650
+Wire Wire Line
+	2025 5650 2025 5550
+Wire Wire Line
+	2025 5450 1925 5450
+Wire Wire Line
+	2200 6425 2425 6425
+Wire Wire Line
+	2425 6425 2425 5250
+Connection ~ 2200 6425
+Wire Wire Line
+	2200 6425 2200 6300
+Text Notes 2350 5250 2    50   ~ 0
+~CLR
+Wire Wire Line
+	2025 5550 2650 5550
+Wire Wire Line
+	2650 5550 2650 5900
+Wire Wire Line
+	2650 5900 3500 5900
+Wire Wire Line
+	3500 5900 3500 4750
+Wire Wire Line
+	3500 4750 3425 4750
+Connection ~ 2025 5550
+Wire Wire Line
+	2025 5550 2025 5450
+NoConn ~ 3425 4550
+NoConn ~ 3425 4450
+NoConn ~ 3425 4350
+NoConn ~ 3425 4250
+$Comp
+L 74xx:74LS00 U4
+U 5 1 62C7F036
+P 875 2125
+F 0 "U4" H 1105 2171 50  0000 L CNN
+F 1 "74LS00" H 1105 2080 50  0000 L CNN
+F 2 "" H 875 2125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 875 2125 50  0001 C CNN
+	5    875  2125
+	1    0    0    -1  
+$EndComp
+Text Label 875  2625 0    50   ~ 0
+GND
+Text Label 875  1625 0    50   ~ 0
++5V
+$Comp
+L 74xx:74LS139 U7
+U 1 1 62C84856
+P 4600 6200
+F 0 "U7" H 4600 6567 50  0000 C CNN
+F 1 "74LS139" H 4600 6476 50  0000 C CNN
+F 2 "" H 4600 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 4600 6200 50  0001 C CNN
+	1    4600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U7
+U 2 1 62C85E48
+P 4600 7175
+F 0 "U7" H 4600 7542 50  0000 C CNN
+F 1 "74LS139" H 4600 7451 50  0000 C CNN
+F 2 "" H 4600 7175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 4600 7175 50  0001 C CNN
+	2    4600 7175
+	1    0    0    -1  
+$EndComp
+Text Label 4100 6100 2    50   ~ 0
+A1
+Text Label 4100 6200 2    50   ~ 0
+A0
+Text Label 4100 7075 2    50   ~ 0
+A1
+Text Label 4100 7175 2    50   ~ 0
+A0
+$Comp
+L 74xx:74LS32 U2
+U 4 1 62C8B833
+P 3450 6400
+F 0 "U2" H 3450 6725 50  0000 C CNN
+F 1 "74LS32" H 3450 6634 50  0000 C CNN
+F 2 "" H 3450 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3450 6400 50  0001 C CNN
+	4    3450 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6400 4100 6400
+Text Label 6650 4075 0    50   ~ 0
+~IOW
+Wire Wire Line
+	6650 4075 6250 4075
+Connection ~ 6250 4075
+Text Label 6650 4175 0    50   ~ 0
+~IOR
+Wire Wire Line
+	6650 4175 6250 4175
+Connection ~ 6250 4175
+Text Label 3150 6300 2    50   ~ 0
+~IOW
+Text Label 3150 6500 2    50   ~ 0
+~FUJI_SEL
+$Comp
+L 74xx:74LS32 U6
+U 1 1 62C9E255
+P 3450 7375
+F 0 "U6" H 3450 7700 50  0000 C CNN
+F 1 "74LS32" H 3450 7609 50  0000 C CNN
+F 2 "" H 3450 7375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3450 7375 50  0001 C CNN
+	1    3450 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7375 4100 7375
+Text Label 3750 6400 0    50   ~ 0
+~FUJI_WR
+Text Label 3750 7375 0    50   ~ 0
+~FUJI_RD
+Text Label 3150 7275 2    50   ~ 0
+~IOR
+Text Label 3150 7475 2    50   ~ 0
+~FUJI_SEL
+Text Label 5100 6100 0    50   ~ 0
+~SER_WR
+Text Label 5100 6200 0    50   ~ 0
+~START
+Text Label 5100 7075 0    50   ~ 0
+~SER_RD
+NoConn ~ 5100 7175
+$Comp
+L 74xx:74LS00 U8
+U 1 1 62CB06DE
+P 6000 6900
+F 0 "U8" H 6000 7225 50  0000 C CNN
+F 1 "74LS00" H 6000 7134 50  0000 C CNN
+F 2 "" H 6000 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6000 6900 50  0001 C CNN
+	1    6000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 2 1 62CB3282
+P 6000 7425
+F 0 "U8" H 6000 7750 50  0000 C CNN
+F 1 "74LS00" H 6000 7659 50  0000 C CNN
+F 2 "" H 6000 7425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6000 7425 50  0001 C CNN
+	2    6000 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 7325 5550 7325
+Wire Wire Line
+	5550 7325 6425 6900
+Wire Wire Line
+	6425 6900 6300 6900
+Wire Wire Line
+	6300 7425 6450 7425
+Wire Wire Line
+	6450 7425 6450 7350
+Wire Wire Line
+	6450 7250 5550 7000
+Wire Wire Line
+	5550 7000 5700 7000
+Wire Wire Line
+	5700 6800 5475 6800
+Wire Wire Line
+	5475 6800 5475 7275
+Wire Wire Line
+	5475 7275 5100 7275
+Wire Wire Line
+	5100 7375 5475 7375
+Wire Wire Line
+	5475 7375 5475 7525
+Wire Wire Line
+	5475 7525 5700 7525
+$Comp
+L Device:R_Small_US R1
+U 1 1 62CCAF1B
+P 6600 7350
+F 0 "R1" V 6805 7350 50  0000 C CNN
+F 1 "10kΩ" V 6714 7350 50  0000 C CNN
+F 2 "" H 6600 7350 50  0001 C CNN
+F 3 "~" H 6600 7350 50  0001 C CNN
+	1    6600 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 7350 6450 7350
+Connection ~ 6450 7350
+Wire Wire Line
+	6450 7350 6450 7250
+Text Label 6575 7625 0    50   ~ 0
+~FUJI_OUT
+Wire Wire Line
+	6575 7625 6525 7625
+Wire Wire Line
+	6525 7625 6525 7475
+Wire Wire Line
+	6525 7475 6700 7475
+Wire Wire Line
+	6700 7475 6700 7350
+$Comp
+L 74xx:74LS00 U8
+U 3 1 62CD5B19
+P 6000 5850
+F 0 "U8" H 6000 6175 50  0000 C CNN
+F 1 "74LS00" H 6000 6084 50  0000 C CNN
+F 2 "" H 6000 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6000 5850 50  0001 C CNN
+	3    6000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 4 1 62CD8A79
+P 6000 6350
+F 0 "U8" H 6000 6675 50  0000 C CNN
+F 1 "74LS00" H 6000 6584 50  0000 C CNN
+F 2 "" H 6000 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6000 6350 50  0001 C CNN
+	4    6000 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6350 6450 6350
+Wire Wire Line
+	6450 6350 6450 6225
+Wire Wire Line
+	6450 6225 5550 5950
+Wire Wire Line
+	5550 5950 5700 5950
+Wire Wire Line
+	5100 6300 5475 6300
+Wire Wire Line
+	5475 6300 5475 6450
+Wire Wire Line
+	5475 6450 5700 6450
+Wire Wire Line
+	5100 6400 5450 6400
+Wire Wire Line
+	5450 5750 5700 5750
+Wire Wire Line
+	5450 5750 5450 6400
+Wire Wire Line
+	6300 5850 6450 5850
+Wire Wire Line
+	6450 5850 6450 5925
+Wire Wire Line
+	6450 5925 5550 6250
+Wire Wire Line
+	5550 6250 5700 6250
+Text Label 6450 5850 0    50   ~ 0
+~FUJI_CS
+Text Notes 3400 8125 0    50   ~ 0
+Source: https://www.ecstaticlyrics.com/electronics/SPI/fast_z80_interface.html
+$Comp
+L 74xx:74LS32 U6
+U 5 1 62CF49A5
+P 7375 5750
+F 0 "U6" H 7605 5796 50  0000 L CNN
+F 1 "74LS32" H 7605 5705 50  0000 L CNN
+F 2 "" H 7375 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7375 5750 50  0001 C CNN
+	5    7375 5750
+	1    0    0    -1  
+$EndComp
+Text Label 7375 6250 0    50   ~ 0
+GND
+Text Label 7375 5250 0    50   ~ 0
++5V
+$Comp
+L 74xx:74LS00 U8
+U 5 1 62CFFDB7
+P 8250 5750
+F 0 "U8" H 8480 5796 50  0000 L CNN
+F 1 "74LS00" H 8480 5705 50  0000 L CNN
+F 2 "" H 8250 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8250 5750 50  0001 C CNN
+	5    8250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 6250 7375 6250
+Wire Wire Line
+	8250 5250 7375 5250
+$Comp
+L 74xx:74LS139 U7
+U 3 1 62D0F772
+P 9100 5750
+F 0 "U7" H 9330 5796 50  0000 L CNN
+F 1 "74LS139" H 9330 5705 50  0000 L CNN
+F 2 "" H 9100 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 9100 5750 50  0001 C CNN
+	3    9100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5250 8250 5250
+Connection ~ 8250 5250
+Wire Wire Line
+	8250 6250 9100 6250
+Connection ~ 8250 6250
 $EndSCHEMATC
