@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name PC-8801)(type KiCad)(uri ${KIPRJMOD}/PC-8801.pretty)(options "")(descr ""))
   (lib (name ESP32-DEVKITC)(type KiCad)(uri ${KIPRJMOD}/ESP32-DEVKITC)(options "")(descr ""))
+  (lib (name microSD_Breakout)(type KiCad)(uri ${KIPRJMOD}/microSD_Breakout.pretty)(options "")(descr ""))
 )

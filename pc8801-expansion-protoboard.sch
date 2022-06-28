@@ -1128,14 +1128,162 @@ Connection ~ 9100 5250
 Text Notes 10925 4675 0    50   ~ 0
 TODO: Add an optional SD card footprint (kicad symbol isn't really helpful)
 $Comp
-L microSD_Breakout:microSD-Breakout U?
+L microSD_Breakout:microSD-Breakout U14
 U 1 1 62D64843
 P 12375 4375
-F 0 "U?" H 12553 4821 50  0000 L CNN
+F 0 "U14" H 12553 4821 50  0000 L CNN
 F 1 "microSD-Breakout" H 12553 4730 50  0000 L CNN
-F 2 "" H 12375 4375 50  0001 C CNN
-F 3 "" H 12375 4375 50  0001 C CNN
+F 2 "microSD_Breakout:microSD_AliExpress" H 12375 4375 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/32886674838.html" H 12375 4375 50  0001 C CNN
 	1    12375 4375
 	1    0    0    -1  
 $EndComp
+Text Label 11950 4500 2    50   ~ 0
+GND
+Wire Wire Line
+	11950 4500 12025 4500
+Wire Wire Line
+	12025 4500 12025 4225
+Wire Wire Line
+	12025 4225 12175 4225
+$Comp
+L Device:Jumper_NC_Small JP8
+U 1 1 62D7556E
+P 11800 4125
+F 0 "JP8" H 11675 4175 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 11800 4246 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11800 4125 50  0001 C CNN
+F 3 "~" H 11800 4125 50  0001 C CNN
+	1    11800 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP7
+U 1 1 62D7682D
+P 11800 3925
+F 0 "JP7" H 11675 3975 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 11800 4046 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11800 3925 50  0001 C CNN
+F 3 "~" H 11800 3925 50  0001 C CNN
+	1    11800 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12175 4125 11900 4125
+Text Label 11900 4125 0    50   ~ 0
+SD_MISO
+Wire Wire Line
+	12175 3925 11900 3925
+Text Label 11900 3925 0    50   ~ 0
+SD_MOSI
+$Comp
+L Device:Jumper_NC_Small JP5
+U 1 1 62DA1E51
+P 11500 3825
+F 0 "JP5" H 11675 3875 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 11500 3946 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11500 3825 50  0001 C CNN
+F 3 "~" H 11500 3825 50  0001 C CNN
+	1    11500 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP6
+U 1 1 62DA30D4
+P 11500 4025
+F 0 "JP6" H 11675 4075 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 11500 4146 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11500 4025 50  0001 C CNN
+F 3 "~" H 11500 4025 50  0001 C CNN
+	1    11500 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 4025 12175 4025
+Wire Wire Line
+	12175 3825 11600 3825
+Text Label 11900 3825 0    50   ~ 0
+~SD_CS
+Text Label 11900 4025 0    50   ~ 0
+SD_CLK
+Text Label 11400 3825 2    50   ~ 0
+~FUJI_CS
+Text Label 11400 4025 2    50   ~ 0
+SPI_CLK
+Text Label 11400 3925 2    50   ~ 0
+FUJI_IN
+Text Label 11400 4125 2    50   ~ 0
+FUJI_OUT
+Wire Wire Line
+	11400 4125 11700 4125
+Wire Wire Line
+	11700 3925 11400 3925
+$Comp
+L Regulator_Linear:AZ1117-3.3 U13
+U 1 1 62DD617D
+P 11775 2925
+F 0 "U13" H 11775 3167 50  0000 C CNN
+F 1 "AZ1117-3.3" H 11775 3076 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 11775 3175 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 11775 2925 50  0001 C CNN
+	1    11775 2925
+	1    0    0    -1  
+$EndComp
+Text Label 11775 3425 2    50   ~ 0
+GND
+Wire Wire Line
+	11775 3425 11775 3300
+Text Label 11125 2750 2    50   ~ 0
++12V
+$Comp
+L Device:CP_Small C1
+U 1 1 62DE6E49
+P 11125 3025
+F 0 "C1" H 11213 3071 50  0000 L CNN
+F 1 "10µF" H 11213 2980 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 11125 3025 50  0001 C CNN
+F 3 "~" H 11125 3025 50  0001 C CNN
+	1    11125 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 2925 11475 2925
+Wire Wire Line
+	11125 2925 11125 2750
+Connection ~ 11125 2925
+Wire Wire Line
+	11125 3125 11125 3300
+Wire Wire Line
+	11125 3300 11775 3300
+Connection ~ 11775 3300
+Wire Wire Line
+	11775 3300 11775 3225
+$Comp
+L Device:CP_Small C2
+U 1 1 62E094B6
+P 12425 3025
+F 0 "C2" H 12513 3071 50  0000 L CNN
+F 1 "22µF" H 12513 2980 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12425 3025 50  0001 C CNN
+F 3 "~" H 12425 3025 50  0001 C CNN
+	1    12425 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12425 2925 12075 2925
+Wire Wire Line
+	12425 2925 12900 2925
+Connection ~ 12425 2925
+Text Label 12900 2925 0    50   ~ 0
++3.3V
+Text Label 12025 3625 2    50   ~ 0
++3.3V
+Wire Wire Line
+	12025 3625 12175 3625
+Wire Wire Line
+	12175 3625 12175 3725
+Wire Wire Line
+	12425 3125 12425 3300
+Wire Wire Line
+	12425 3300 11775 3300
 $EndSCHEMATC
