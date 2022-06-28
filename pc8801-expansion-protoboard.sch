@@ -1127,4 +1127,15 @@ Wire Wire Line
 Connection ~ 9100 5250
 Text Notes 10925 4675 0    50   ~ 0
 TODO: Add an optional SD card footprint (kicad symbol isn't really helpful)
+$Comp
+L microSD_Breakout:microSD-Breakout U?
+U 1 1 62D64843
+P 12375 4375
+F 0 "U?" H 12553 4821 50  0000 L CNN
+F 1 "microSD-Breakout" H 12553 4730 50  0000 L CNN
+F 2 "" H 12375 4375 50  0001 C CNN
+F 3 "" H 12375 4375 50  0001 C CNN
+	1    12375 4375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
