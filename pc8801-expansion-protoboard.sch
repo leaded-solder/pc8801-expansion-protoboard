@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -999,4 +999,132 @@ Connection ~ 6575 5175
 Wire Wire Line
 	6575 5175 6625 5175
 NoConn ~ 2425 4250
+$Comp
+L ESP32-DEVKITC:ESP32-DEVKITC U11
+U 1 1 62C0F973
+P 4450 9750
+F 0 "U11" H 4450 10917 50  0000 C CNN
+F 1 "ESP32-DEVKITC" H 4450 10826 50  0000 C CNN
+F 2 "ESP32-DEVKITC:MODULE_ESP32-DEVKITC" H 4450 9750 50  0001 L BNN
+F 3 "" H 4450 9750 50  0001 L BNN
+F 4 "N/A" H 4450 9750 50  0001 L BNN "PARTREV"
+F 5 "ESPRESSIF" H 4450 9750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 4450 9750 50  0001 L BNN "STANDARD"
+	1    4450 9750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 8850
+Text Label 3050 10650 2    50   ~ 0
++5V
+Wire Wire Line
+	3050 10650 3650 10650
+Text Label 5525 8850 0    50   ~ 0
+GND
+Wire Wire Line
+	5525 8850 5250 8850
+Text Label 5525 9450 0    50   ~ 0
+GND
+Wire Wire Line
+	5525 9450 5250 9450
+Text Label 3050 10150 2    50   ~ 0
+GND
+Wire Wire Line
+	3050 10150 3650 10150
+Wire Wire Line
+	5250 8950 6075 8950
+Text Label 5525 8950 0    50   ~ 0
+VSPI_MOSI
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 62C49335
+P 6175 8950
+F 0 "JP1" H 6325 9000 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6175 9071 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6175 8950 50  0001 C CNN
+F 3 "~" H 6175 8950 50  0001 C CNN
+	1    6175 8950
+	1    0    0    -1  
+$EndComp
+Text Label 6575 9550 0    50   ~ 0
+FUJI_OUT
+Wire Wire Line
+	6575 8950 6275 8950
+Wire Wire Line
+	5250 9550 6075 9550
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 62C5E6D6
+P 6175 9550
+F 0 "JP2" H 6325 9600 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6175 9671 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6175 9550 50  0001 C CNN
+F 3 "~" H 6175 9550 50  0001 C CNN
+	1    6175 9550
+	1    0    0    -1  
+$EndComp
+Text Label 5525 9550 0    50   ~ 0
+VSPI_MISO
+Text Label 6575 8950 0    50   ~ 0
+FUJI_IN
+Wire Wire Line
+	6575 9550 6275 9550
+Wire Wire Line
+	5250 9650 6075 9650
+$Comp
+L Device:Jumper_NC_Small JP3
+U 1 1 62C73DF9
+P 6175 9650
+F 0 "JP3" H 6325 9700 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6175 9771 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6175 9650 50  0001 C CNN
+F 3 "~" H 6175 9650 50  0001 C CNN
+	1    6175 9650
+	1    0    0    -1  
+$EndComp
+Text Label 5525 9650 0    50   ~ 0
+VSPI_SCK
+Wire Wire Line
+	6275 9650 6575 9650
+Text Label 6575 9650 0    50   ~ 0
+SPI_CLK
+Wire Wire Line
+	5250 9750 6075 9750
+$Comp
+L Device:Jumper_NC_Small JP4
+U 1 1 62C89FB1
+P 6175 9750
+F 0 "JP4" H 6325 9800 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6175 9871 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6175 9750 50  0001 C CNN
+F 3 "~" H 6175 9750 50  0001 C CNN
+	1    6175 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 9750 6575 9750
+Text Label 6575 9750 0    50   ~ 0
+~FUJI_CS
+Text Label 5525 9750 0    50   ~ 0
+~VSPI_SS
+$Comp
+L 74xx:74LS139 U12
+U 3 1 62D32B5F
+P 9975 5750
+F 0 "U12" H 10205 5796 50  0000 L CNN
+F 1 "74LS139" H 10205 5705 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 9975 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 9975 5750 50  0001 C CNN
+	3    9975 5750
+	1    0    0    -1  
+$EndComp
+Text Notes 10250 5925 0    50   ~ 0
+SPARE
+Wire Wire Line
+	9975 6250 9100 6250
+Connection ~ 9100 6250
+Wire Wire Line
+	9100 5250 9975 5250
+Connection ~ 9100 5250
+Text Notes 10925 4675 0    50   ~ 0
+TODO: Add an optional SD card footprint (kicad symbol isn't really helpful)
 $EndSCHEMATC
