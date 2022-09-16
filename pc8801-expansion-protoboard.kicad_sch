@@ -5226,7 +5226,7 @@
     (uuid 00000000-0000-0000-0000-000062ccaf1b)
     (property "Reference" "R1" (id 0) (at 167.64 181.483 90))
     (property "Value" "10kΩ" (id 1) (at 167.64 183.7944 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 167.64 186.69 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 167.64 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 167.64 186.69 0)
@@ -5782,7 +5782,7 @@
       (reference "JP8") (unit 1) (value "Jumper_NC_Small") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-000062ccaf1b"
-      (reference "R1") (unit 1) (value "10kΩ") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+      (reference "R1") (unit 1) (value "10kΩ") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/e40129d7-8674-459d-9e84-03538bf9687e"
       (reference "R2") (unit 1) (value "560Ω") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
