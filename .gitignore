@@ -1,4 +1,5 @@
 *.zip
+*auto_save*
 v0.*
 *cache*
 *bak
