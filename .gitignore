@@ -1,4 +1,5 @@
 *.zip
+*.lck
 v0.*
 *cache*
 *bak
