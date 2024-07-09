@@ -4,4 +4,5 @@
   (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/ESP32-DEVKITC")(options "")(descr ""))
   (lib (name "microSD_Breakout")(type "KiCad")(uri "${KIPRJMOD}/microSD_Breakout.pretty")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/RP2040/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "AliExpress_Picos")(type "KiCad")(uri "${KIPRJMOD}/AliExpress_Picos.pretty")(options "")(descr ""))
 )
